@@ -17,6 +17,7 @@
 * [Golang Examples](https://github.com/SimonWaldherr/golang-examples)
 * [Goland Code Review](https://github.com/golang/go/wiki/CodeReviewComments)
 * [Benchamark](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)and [Profiling](https://blog.golang.org/pprof)
+* [Go Web examples](https://gowebexamples.com/), [Refer to it also.](https://gitlab.com/zendrulat123/gow/-/tree/master)
 
 ## Blueprint
 
