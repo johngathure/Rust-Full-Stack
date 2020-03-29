@@ -4,7 +4,7 @@ First, install mongodb with these Docker commands.
 
 ```console
 $docker volume create mongodbdata
-$docker run -d -v mongodbdata:/data/db --name mongo -p 27017:27017 mongo 
+$docker run -d -v mongodbdata:/data/db --name mongo -p 27017:27017 mongo
 ```
 
 Then, install the npm packages with $yarn

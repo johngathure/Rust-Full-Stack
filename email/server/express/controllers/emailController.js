@@ -53,7 +53,7 @@ const registerEmail = async (req, res) => {
 // $curl -X PUT localhost:8000/api/email/v1/steady@learner.com -H "Content-Type: application/json" -d '{ "response": "true" }'
 const updateEmail = async (req, res) => {
     try {
-        const _updatedItem = await Email.findOneAndUpdate({ email: req.params.email }, req.body);
+        const _updatedEmail = await Email.findOneAndUpdate({ email: req.params.email }, req.body);
         res.json({ success: true });
     } catch(e) {
         console.log(e);
@@ -64,7 +64,7 @@ const updateEmail = async (req, res) => {
 // $curl -X DELETE localhost:8000/api/email/v1/steady@learner.com
 const deleteEmail = async (req, res) => {
     try {
-        const _deletedItem = await Email.findOneAndDelete({ email: req.params.email });
+        const _deletedEmail = await Email.findOneAndDelete({ email: req.params.email });
         res.json({ success: true });
     } catch (e) {
         console.log(e);

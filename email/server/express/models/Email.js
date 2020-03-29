@@ -23,6 +23,6 @@ const EmailSchema = new Schema({
   },
 });
 
-const Item = mongoose.model('email', EmailSchema);
+const Email = mongoose.model('email', EmailSchema);
 
-module.exports = Item;
+module.exports = Email;
